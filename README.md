@@ -29,6 +29,7 @@
     -Update store with trailerVideo data
     -Embedded the youtube video and make it autoplay n mute
     -Added tailwind class to make main conatiner look awesome
+    -Build Seconadry component
 
 # Features
 
