@@ -30,6 +30,11 @@
     -Embedded the youtube video and make it autoplay n mute
     -Added tailwind class to make main conatiner look awesome
     -Build Seconadry component
+    -Build the movieList
+    -Build Movie Card
+    -TMDB Image CDN URl
+    -made the browse page amazing with tailwind CSS
+    -usePopularMovie custom hook
 
 # Features
 
