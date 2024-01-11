@@ -1,4 +1,3 @@
-import React from "react";
 import { API_OPTIONS } from "../utils/Constant";
 import { useDispatch } from "react-redux";
 import addPopularMovies from "../utils/movieSlice";
