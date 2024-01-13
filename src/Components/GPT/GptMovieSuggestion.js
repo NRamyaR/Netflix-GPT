@@ -1,10 +1,8 @@
-import React from "react";
 import { useSelector } from "react-redux";
+import MovieList from "../Movie/MovieList";
 
-import MovieList from "./MovieList";
-const GptMovieSuggestion = () => {
-  const gpt = useSelector((store) => store.gpt);
-  const { movieNames, movieResults } = gpt;
+const GptMovieSuggestions = () => {
+  const { movieResults, movieNames } = useSelector((store) => store.gpt);
   if (!movieNames) return null;
 
   return (
@@ -21,5 +19,4 @@ const GptMovieSuggestion = () => {
     </div>
   );
 };
-
-export default GptMovieSuggestion;
+export default GptMovieSuggestions;
